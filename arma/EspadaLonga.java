@@ -3,6 +3,8 @@ package arma;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+
+import batalha.AtaqueResultado;
 import personagem.Personagem;
 import efeitos.EfeitoStatus;
 import efeitos.Sangramento;
