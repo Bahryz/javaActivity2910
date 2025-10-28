@@ -1,6 +1,10 @@
 package arma;
 
-public interface iArma {
+import personagem.Personagem;
+import batalha.AtaqueResultado;
+
+// A interface Strategy
+public interface IArma {
     String getNome();
     int getDanoBase();
     int getCustoMana();
